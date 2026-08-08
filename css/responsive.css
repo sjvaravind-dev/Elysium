@@ -1,0 +1,821 @@
+/*==================================================
+ELYSIUM STUDIO SUITES
+responsive.css - Enhanced Edition
+==================================================*/
+
+
+/*==========================
+Large Desktop
+==========================*/
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    h1 {
+        font-size: 68px;
+    }
+    
+    .hero h1 {
+        font-size: 62px;
+    }
+    
+    .corner-decor.top-right {
+        width: 150px;
+        height: 180px;
+    }
+}
+
+
+/*==========================
+Laptop
+==========================*/
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    .hero h1 {
+        font-size: 56px;
+    }
+    
+    h2 {
+        font-size: 42px;
+    }
+    
+    .hero p {
+        font-size: 17px;
+    }
+    
+    .booking-box {
+        padding: 30px;
+    }
+    
+    .property-card {
+        height: 480px;
+    }
+    
+    .property-card img {
+        height: 280px;
+    }
+    
+    .gallery img {
+        height: 280px;
+    }
+}
+
+
+/*==========================
+Tablet
+==========================*/
+
+@media (max-width: 992px) {
+    .section-padding {
+        padding: 80px 0;
+    }
+    
+    h1 {
+        font-size: 52px;
+    }
+    
+    h2 {
+        font-size: 38px;
+    }
+    
+    .navbar {
+        background: rgba(6, 51, 44, 0.95);
+        backdrop-filter: blur(15px);
+        padding: 15px 0;
+    }
+    
+    .logo {
+        height: 70px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 55px;
+    }
+    
+    .navbar-collapse {
+        margin-top: 20px;
+        background: rgba(6, 51, 44, .98);
+        padding: 25px;
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+    }
+    
+    .nav-link {
+        margin: 8px 0;
+        margin-left: 0;
+        padding: 10px 0;
+        color: #fff;
+    }
+    
+    .navbar.scrolled .nav-link {
+        color: #fff;
+    }
+    
+    .nav-link::after {
+        display: none;
+    }
+    
+    .btn-book {
+        margin: 15px 0 0 0 !important;
+        display: block;
+        text-align: center;
+    }
+    
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding: 140px 0 80px;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 48px;
+    }
+    
+    .hero p {
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .hero-btns {
+        justify-content: center;
+    }
+    
+    .hero-stats {
+        margin: 40px auto 0;
+        justify-content: center;
+    }
+    
+    .booking-box {
+        margin-top: 50px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #about img {
+        margin-bottom: 40px;
+    }
+    
+    #about h2 {
+        font-size: 38px;
+    }
+    
+    .about-image-float {
+        width: 50%;
+    }
+    
+    .corner-decor {
+        display: none;
+    }
+    
+    .properties {
+        padding: 80px 0;
+    }
+    
+    .property-card {
+        margin: 0 auto 35px;
+        height: 480px;
+    }
+    
+    .amenity-item {
+        padding: 25px 15px;
+    }
+    
+    .amenity-item i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+    }
+    
+    .newsletter {
+        text-align: center;
+    }
+    
+    .newsletter h2 {
+        font-size: 32px;
+    }
+    
+    .newsletter form {
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    .gallery-item {
+        height: 280px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    footer .social {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .footer-newsletter {
+        max-width: 350px;
+        margin: 15px auto 0;
+    }
+    
+    .footer-bottom {
+        justify-content: center;
+    }
+}
+
+
+/*==========================
+Mobile Landscape
+==========================*/
+
+@media (max-width: 768px) {
+    .section-padding {
+        padding: 70px 0;
+    }
+    
+    h1 {
+        font-size: 44px;
+    }
+    
+    h2 {
+        font-size: 34px;
+    }
+    
+    .hero {
+        padding: 120px 0 70px;
+    }
+    
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .hero-stats {
+        gap: 20px;
+    }
+    
+    .stat-item h3 {
+        font-size: 24px;
+    }
+    
+    .stat-item p {
+        font-size: 11px;
+    }
+    
+    .booking-box {
+        padding: 25px;
+    }
+    
+    .booking-box h3 {
+        font-size: 22px;
+    }
+    
+    .btn-book,
+    .btn-gold,
+    .btn-booking {
+        width: 100%;
+    }
+    
+    .btn-book {
+        margin-top: 15px !important;
+    }
+    
+    #about h2 {
+        font-size: 34px;
+    }
+    
+    .about-stats h3 {
+        font-size: 34px;
+    }
+    
+    .about-stats p {
+        font-size: 12px;
+    }
+    
+    .experience-badge {
+        padding: 18px;
+    }
+    
+    .exp-number {
+        font-size: 32px;
+    }
+    
+    .properties h2 {
+        font-size: 36px;
+    }
+    
+    .property-card {
+        height: 460px;
+    }
+    
+    .property-card img {
+        height: 250px;
+    }
+    
+    .review-card {
+        padding: 30px;
+    }
+    
+    .gallery-item {
+        height: 220px;
+    }
+    
+    .newsletter h2 {
+        font-size: 30px;
+    }
+    
+    .newsletter form {
+        flex-direction: column;
+    }
+    
+    .newsletter .form-control {
+        border-radius: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .newsletter .btn {
+        border-radius: 50px;
+        width: 100%;
+    }
+    
+    footer {
+        padding: 60px 0 25px;
+    }
+    
+    footer h3 {
+        font-size: 30px;
+    }
+}
+
+
+/*==========================
+Mobile
+==========================*/
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    h1 {
+        font-size: 38px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .logo {
+        height: 60px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 50px;
+    }
+    
+    .navbar-brand {
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    
+    .hero h1 {
+        font-size: 34px;
+    }
+    
+    .hero p {
+        font-size: 15px;
+    }
+    
+    .sub-title {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+    
+    .booking-box {
+        padding: 20px;
+        border-radius: 18px;
+    }
+    
+    .booking-box h3 {
+        font-size: 20px;
+    }
+    
+    .booking-box .form-control,
+    .booking-box .form-select {
+        height: 48px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .section-title {
+        font-size: 13px;
+    }
+    
+    #about h2 {
+        font-size: 30px;
+    }
+    
+    #about p {
+        font-size: 15px;
+    }
+    
+    .about-stats .col-4 {
+        margin-top: 20px;
+    }
+    
+    .about-stats h3 {
+        font-size: 30px;
+    }
+    
+    .property-card {
+        height: 440px;
+    }
+    
+    .property-card img {
+        height: 220px;
+    }
+    
+    .property-card .content {
+        padding: 12px 16px 14px;
+    }
+    
+    .property-card h4 {
+        font-size: 16px;
+    }
+    
+    .amenity-item {
+        padding: 20px 10px;
+    }
+    
+    .amenity-item i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 28px;
+    }
+    
+    .amenity-item h5 {
+        font-size: 14px;
+    }
+    
+    .review-card {
+        padding: 25px;
+    }
+    
+    .review-card p {
+        font-size: 15px;
+    }
+    
+    .reviewer-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .gallery-item {
+        height: 180px;
+    }
+    
+    .newsletter {
+        padding: 70px 0;
+    }
+    
+    .newsletter h2 {
+        font-size: 28px;
+    }
+    
+    footer h5 {
+        margin-top: 30px;
+    }
+    
+    #scrollTop {
+        width: 45px;
+        height: 45px;
+        right: 15px;
+        bottom: 15px;
+        font-size: 18px;
+    }
+    
+    .loader-logo {
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+}
+
+
+/*==========================
+Small Mobile
+==========================*/
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    .hero h1 {
+        font-size: 30px;
+    }
+    
+    .hero p {
+        font-size: 14px;
+    }
+    
+    .btn {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    
+    .booking-box {
+        padding: 18px;
+    }
+    
+    .booking-box h3 {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    .property-card {
+        height: 420px;
+    }
+    
+    .property-card img {
+        height: 200px;
+    }
+    
+    .gallery-item {
+        height: 160px;
+    }
+    
+    .review-card {
+        padding: 20px;
+    }
+    
+    .footer-bottom {
+        font-size: 13px;
+    }
+    
+    footer {
+        padding: 50px 0 20px;
+    }
+}
+
+
+/*==========================
+Extra Small Devices
+==========================*/
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    .hero h1 {
+        font-size: 26px;
+    }
+    
+    .logo {
+        height: 50px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 45px;
+    }
+    
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .property-card h4 {
+        font-size: 18px;
+    }
+    
+    .booking-box {
+        padding: 15px;
+    }
+    
+    .gallery-item {
+        height: 150px;
+    }
+    
+    .amenity-item h5 {
+        font-size: 13px;
+    }
+}
+
+
+/*==========================
+Landscape Phones
+==========================*/
+
+@media (max-height: 600px) {
+    .hero {
+        height: auto;
+        padding: 130px 0 80px;
+    }
+    
+    .hero h1 {
+        font-size: 36px;
+    }
+    
+    .hero-stats {
+        margin-top: 30px;
+    }
+    
+    .booking-box {
+        padding: 20px;
+    }
+    
+    .booking-box h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .booking-box .form-control,
+    .booking-box .form-select {
+        height: 45px;
+        margin-bottom: 12px;
+    }
+}
+
+
+/*==========================
+Hover Support (Touch Devices)
+==========================*/
+
+@media (hover: none) {
+    .property-card:hover,
+    .btn:hover,
+    .gallery-item:hover img,
+    .amenity-item:hover {
+        transform: none;
+    }
+    
+    .property-card:hover .img-box img {
+        transform: none;
+    }
+    
+    .amenity-item:hover i {
+        transform: none;
+    }
+    
+    .cursor,
+    .cursor-follower {
+        display: none;
+    }
+    
+    body {
+        cursor: auto;
+    }
+}
+
+
+/*==========================
+Print
+==========================*/
+
+@media print {
+    .navbar,
+    footer,
+    .newsletter,
+    #scrollTop,
+    .loader,
+    .cursor,
+    .cursor-follower,
+    .hero-particles,
+    .newsletter-bg {
+        display: none !important;
+    }
+    
+    body {
+        background: #fff;
+    }
+    
+    .hero {
+        height: auto;
+        min-height: auto;
+    }
+    
+    .corner-decor {
+        display: none;
+    }
+}
+
+
+
+/*==========================
+Tablet - Adjust spacing
+==========================*/
+@media (max-width: 992px) {
+    .hero {
+        padding-top: 120px;    /* ✅ Reduced padding for tablet */
+        height: auto;
+        min-height: auto;
+        padding-bottom: 80px;
+    }
+    
+    /* ✅ LOGO SIZE FOR TABLET */
+    .logo {
+        height: 90px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 70px;
+    }
+    
+    .hero .col-lg-5 {
+        padding-top: 0;
+    }
+    
+    .booking-box {
+        margin-top: 50px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/*==========================
+Mobile Landscape
+==========================*/
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 110px;
+    }
+    
+    /* ✅ LOGO SIZE FOR MOBILE */
+    .logo {
+        height: 75px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 60px;
+    }
+    
+    .booking-box {
+        margin-top: 40px;
+    }
+    
+    .hero .col-lg-5 {
+        padding-top: 0;
+    }
+}
+
+
+/*==========================
+Mobile
+==========================*/
+@media (max-width: 576px) {
+    /* ✅ LOGO SIZE FOR SMALL MOBILE */
+    .logo {
+        height: 65px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 55px;
+    }
+    
+    .hero {
+        padding-top: 100px;
+    }
+    
+    .booking-box {
+        margin-top: 30px;
+    }
+    
+    .hero .col-lg-7 {
+        padding-top: 20px;
+    }
+}
+
+
+/*==========================
+Small Mobile
+==========================*/
+@media (max-width: 375px) {
+    /* ✅ LOGO SIZE FOR EXTRA SMALL */
+    .logo {
+        height: 55px;
+    }
+    
+    .navbar.scrolled .logo {
+        height: 50px;
+    }
+}
